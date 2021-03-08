@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.home-content{
+    background: #0c222a;
+    background-size: 100% 100%;
+    position: relative;
+    padding: 150px 0 170px 0;
+    color: #fff;
+    height: 100vh;
+}
+.jumbo-text{
+    padding-top: 30px;
+    padding-left: 100px;
+    text-align: right;
+}
+.jumbo-text h1 {
+    font-size: 50px;
+    font-weight: 1000;
+}
+.jumbo-text p {
+    padding-top: 10px;
+}
+.jumbo-text .jumbo-btn{
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #eee355;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    padding-top: 20px;
+    top: 10;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+}
+
+/* What We Offer Styles */
+.title{
+    padding: 50px 0 20px;
+}
+.title h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(27, 11, 27);
+}
+.offers-box{
+    display:flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    align-items: center;
+}
+.button-btn{
+    width: 100%;
+    background-color: #0c222a;
+    color: #fff;
+    padding: 20px 40px 20px 40px !important;  
+    margin-top: 4px;
+    border: none;
+}
+
+/* Course Style */
+.course{
+    text-align: center;
+    padding: 50px 0 15px;
+}
+.course h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(27, 11, 27);
+}
+.img-style{
+    overflow: none;
+}
+
+
+.course h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .product-container{
+    background-color: rgb(217, 235, 235)
+} */
+.product-content{
+    background-color: rgb(217, 235, 235)
+}
+
+.carousel-content{
+    padding: 120px 20px 0 50px;
+    background-color: rgb(217, 235, 235);
+    height: 650px;
+    border-top: 1px solid #0c222a;
+    border-bottom: 1px solid #0c222a;
+}
+.carousel-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(27, 11, 27);
+}
+.carousel-content p {
+    margin-right: 15px;
+    line-height: 1.9rem;
+}
+.carousel-content button {
+    background-color: #0c222a;
+    padding: 15px 60px 15px 60px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+/* Value Box */
+
+.value-titles h3{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 70px;
+    color: rgb(27, 11, 27);
+}
+
+
+.values-box{
+    /* display:flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: auto;
+    align-items: center; */
+}
+.values-box .value-title{
+    color: rgb(27, 11, 27);
+    font-weight: 600;
+    padding-top: 1px;
+}
+.values-box .content{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+.del-button-div{
+    text-align: center;
+    margin-top: 30px;
+}
+.del-button-div .del-button{
+    background-color: #eee355;
+    color: #0c222a;
+    border: none;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    box-shadow: 1px solid #0c222a;
+}
+
+/* Testimony Styles */
+.wrapper{
+    margin-top: 50px;
+}
+.heading{
+    padding: 70px 0 70px 0;
+}
+.heading h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(27, 11, 27)
+}
+  
+.wrapper h1{
+font-family: 'Allura', cursive;
+font-size: 52px;
+margin-bottom: 60px;
+text-align: center;
+}
+
+.team{
+display: flex;
+justify-content: center;
+width: auto;
+text-align: center;
+flex-wrap: wrap;
+}
+
+.team .team_member{
+background: #fff;
+margin: 25px;
+margin-bottom: 50px;
+width: 300px;
+padding: 20px;
+line-height: 20px;
+color: #8e8b8b;  
+position: relative;
+}
+
+.team .team_member h3{
+color: #0c222a;
+font-size: 26px;
+margin-top: 5px;
+}
+
+.team .team_member p.role{
+color: #ccc;
+margin: 12px 0;
+font-size: 12px;
+text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+position: absolute;
+top: -50px;
+left: 50%;
+transform: translateX(-50%);
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: #fff;
+}
+.testimony-image{
+border-radius: 50%;
+}
+.team .team_member .team_img img{
+width: 100px;
+height: 100px;
+padding: 5px;
+}
+.testimony-content h3 {
+font-weight: 600;
+color: #0c222a;
+padding-top: 60px;
+padding-bottom: 10px;
+}
+.testimony-content h4 {
+font-weight: 500;
+color: #0c222a;
+padding-top: 20px;
+}
+.testimony-content h5 {
+font-size: 1.1rem;
+font-weight: 500;
+color: #848e92;
+padding-top: 2px;
+padding-bottom: 5px;
+}
+
+
+/* Company Style */
+.company-container{
+    padding: 10px 0 100px 0;
+    background-color: rgb(233, 220, 232);
+}
+.company-title h3 {
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(27, 11, 27)
+}
+.comp_img{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Magic section Style */
+
+.magic-content {
+    text-align: center;
+    padding: 100px 0 150px;
+}
+.magic-content p{
+    color: #0c222a;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+.magic-content .magic-btn{
+    background-color: #0c222a;
+    color: #fff;
+    padding: 20px 30px 20px 30px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+.magic-content .magic-btn:hover{
+    background-color: #0c222a;
+    color: #fff;
+    padding: 20px 30px 20px 30px;
+    margin-top: 10px;
+    font-weight: 900;
+    text-decoration: none;
+}
+#footer{
+    background-color: #0c222a;
+    padding: 70px 0 20px 0;
+}
+
+
+
+#footer span{
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+#footer h6{
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffff;
+}
+#footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+#footer ul li a {
+    color: rgb(206, 198, 198);
+    padding-top: 10px;
+}
+#footer ul li a:hover{
+    text-decoration: none;
+}
+#footer ul li{
+    color: rgb(206, 198, 198);
+    padding-top: 10px;
+}
+.mark{
+    color: rgb(206, 198, 198);
+}
+.copyright{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(206, 198, 198);
+}
+.copyright .ace{
+    text-decoration: underline;
+}
