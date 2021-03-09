@@ -23,13 +23,13 @@ const Company = () => {
 
     return(
         <div className="company-container">
-            <div className="container">
-                <div className="company-title text-center">
+            <div className="container-fluid">
+                <div className="section-header text-center">
                     <h3>Featured Companies</h3>
                 </div>
-                <div className="row mt-4">
+                <div className="row mt-2">
                 {comps.map((j, k) => (
-                    <div className="col-md-3 col-sm-4 col-6 text-center comp_img" key={k}>
+                    <div className="col-md-3 col-sm-3 col-6 text-center comp_img" key={k}>
                         <img src={j.image} alt="box" />
                     </div>
                 ))}

@@ -55,7 +55,7 @@ const Carouse = (props) => {
 
   const goToIndex = (newIndex) => {
     if (animating) return;
-    setActiveIndex(newIndex);
+    setActiveIndex(newIndex); 
   }
 
 

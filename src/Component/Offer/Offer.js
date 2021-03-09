@@ -10,37 +10,45 @@ const Offer = () => {
     const offers = [
         {
             image : image1,
-            title : "Talent Network"
+            title : "Talent Network" ,
+            link : '#',
+            nameOfClass : 'offers-img'
         },
         {
-            image : image2,
-            title : "Software Development"
+            image : image2, 
+            title : "Software Development",
+            link : '#',
+            nameOfClass : 'offers-img',
         },
         {
             image : image3,
-            title : "Outsourcing"
+            title : "Outsourcing",
+            link : '#',
+            nameOfClass : 'offers-img'
         },
         {
             image : image4,
-            title : "Featured Products"
+            title : "Featured Products",
+            link : '##' ,
+            nameOfClass : 'offers-img'
         }
     ]
 
     return (
-        <section id="offers" className="mt-4">
+        <section id="offers" className="mt-3">
         <div className="container">
-            <div className="text-center">
+            <div className="row text-center">
                 <div className="col-md-12">
-                    <div className="title">
+                    <div className="section-header">
                         <h3>What we Offer</h3>
                     </div>
                 </div>
             </div>
-            <div className="offers-box mt-4">
+            <div className="row mt-4">
                 {offers.map((j, k) => (
-                    <div className="col-md-3 col-sm-4 col-12" key={k}>
-                        <img src={j.image} alt="box" />
-                        <button className="button-btn">{j.title}</button>
+                    <div className="col-lg-3 col-md-6 col-6 mb-4" key={k}>
+                        <img src={j.image} className={j.nameOfClass} alt="box" />
+                        <Link to={j.link} className="button-btn">{j.title}</Link>
                     </div>
                 ))}
             </div>

@@ -37,21 +37,27 @@ const Testimony = () => {
 
     return(
         <section id="value" className="mt-4">
-            <div className="wrapper">
-                <div className="text-center heading">
-                    <h3>Testimonials</h3>
+            <div className="container">
+                <div className='row'>
+                    <div className='col-md-12 mb-5'>
+                        <div className="text-center section-header">
+                            <h3>Testimonials</h3>
+                        </div>
+                    </div>
                 </div>
-                <div className="team">
+                <div className="row team row-mobile team-section">
                     {testimonies.map((a,b) => (
-                        <div className="team_member card" key={b}>
-                            <div className="team_img">
-                                <img src={image1} alt="first-image" className="testimony-image"/>
-                            </div>
-                            <div className="text-center testimony-content">
-                                <h3>{a.head}</h3>
-                                <p>{a.caption}</p>
-                                <h4>{a.name}</h4>
-                                <h5>{a.work}</h5>
+                        <div className='col-lg-4'>
+                            <div className="team_member" key={b}>
+                                <div className="team_img">
+                                    <img src={image1} alt="first-image" className="testimony-image"/>
+                                </div>
+                                <div className="text-center testimony-content">
+                                    <h3>{a.head}</h3>
+                                    <p>{a.caption}</p>
+                                    <h4>{a.name}</h4>
+                                    <h5>{a.work}</h5>
+                                </div>
                             </div>
                         </div>
                     ))}

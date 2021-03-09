@@ -1,3 +1,4 @@
+import { React } from "react";
 import NavHeader from "../Component/Navbar/Navbar"
 import Offer from "../Component/Offer/Offer"
 import Footer from "../Component/Footer/Navbar/Footer"
@@ -18,11 +19,11 @@ const Homepage = () => {
             <div className="home-content" >
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 global order-lg-first">
-                            <img src={Img} alt="ace_illustration" width="500px" />
+                        <div className="col-lg-6">
+                            <img src={Img} alt="ace_illustration" width="100%" />
                         </div>
                         
-                        <div className="col-lg-6 jumbo-text order-lg-first">
+                        <div className="col-lg-6 jumbo-text">
                             <h1>Let's turn your idea into something magical.</h1>
                             <p>
                                 Let's switch it from "just an idea" to something delightful.
@@ -31,11 +32,14 @@ const Homepage = () => {
                             <button className="jumbo-btn">Reach Out</button>
                         </div>
                     </div>
+                    <p className='map-marker'><i className='fa fa-map-marker mr-2'></i>Lagos, Nigeria</p>
                 </div>
             </div>
             <Offer />
-            <div className="course">
-                <h3>Our Courses</h3>
+            <div className='container'>
+                <div className="section-header text-center">
+                    <h3>Our Courses</h3>
+                </div>
             </div>
             <Course />
             <Value />
