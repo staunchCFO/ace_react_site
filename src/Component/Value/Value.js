@@ -32,27 +32,28 @@ const Value = () => {
     return (
         <section id="values" className="mt-4">
         <div className="container">
-            <div className="text-center">
+            <div className="row">
                 <div className="col-md-12">
-                    <div className="value-titles">
+                    <div className="text-center section-header">
                         <h3>Our Core Deliverables</h3>
                     </div>
                 </div>
             </div>
-            <div className="values-box mt-4">
+            <div className="values-box mt-1">
                 <div className="row">
                     {values.map((j, k) => (
-                            <div className="col-md-6 col-sm-4 col-6" key={k}>
-                                <div className="row content">
-                                    <div className="col-md-4">
-                                        <img src={j.image} alt="box" />
-                                    </div>
-                                    <div className="col-md-8">
-                                        <h4 className="value-title">{j.title}</h4>
-                                        <p className="value-text">{j.caption}</p>
-                                    </div>
+                        <div className="col-lg-6 col-md-12" key={k}>
+                            <div className="row content">
+                                <div className="col-4">
+                                    <img src={j.image} alt={j.title} />
+                                </div>
+                                {/* <div className='col-md-1'></div> */}
+                                <div className="col-8">
+                                    <h4 className="value-title">{j.title}</h4>
+                                    <p className="value-text">{j.caption}</p>
                                 </div>
                             </div>
+                        </div>
                     ))}
                 </div>
             </div>

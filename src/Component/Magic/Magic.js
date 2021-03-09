@@ -12,7 +12,7 @@ const Magic = () => {
                         From individuals to startups, to fortune 500 companies - and everyone else in-between - 
                         we work with our clients to create magic
                     </p>
-                    <Link className="magic-btn">Let's Create Magic</Link>
+                    <Link to="#" className="magic-btn">Let's Create Magic</Link>
                 {/* </div> */}
                 {/* <div className="col-md-1 order-last"></div> */}
             </div>

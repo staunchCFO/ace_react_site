@@ -9,22 +9,19 @@ import image1 from "../../Assest/images/bg-6.svg"
 
 const Course = () => {
     return(
-        <div className="product-container">
+        <div className="container-fluid course-container">
             <div className="row no-gutters">
-                <div className="col-md-6">
-                    <div className="img-width">
-                        <img src={image1} alt="ace_image" height="600px" className="img-style img-fluid"/>
-                    </div>
+                <div className="col-md-12 col-lg-6 p-0 m-0">
+                    <img src={image1} alt="ace_image"  className="course-img"/>
                 </div>
-                <div className="col-md-6">
-                    <div className="product-content">
-                        <div className="row">
-                            <div className="col-md-11">
+                <div className="col-md-12 col-lg-6 p-0 m-0 product-content">
+                    <div className=" container-fluid">
+                        <div className="row no-gutters">
+                            <div className="col-lg-12">
                                 <div className="">
                                     <Carousel />
                                 </div>
                             </div>
-                            <div className="col-md-1"></div>
                         </div>
                     </div>
                 </div>
