@@ -32,7 +32,7 @@ const Homepage = () => {
                             <button className="jumbo-btn">Reach Out</button>
                         </div>
                     </div>
-                    <p className='map-marker'><i className='fa fa-map-marker mr-2'></i>Lagos, Nigeria</p>
+                    <p className='map-marker'><i className='fa fa-map-marker mt mr-2'></i>Lagos, Nigeria</p>
                 </div>
             </div>
             <Offer />
